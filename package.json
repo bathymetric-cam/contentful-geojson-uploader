@@ -1,0 +1,30 @@
+{
+  "name": "bathymetric-cam-contentful",
+  "version": "0.0.0",
+  "description": "description",
+  "author": "kenzan8000",
+  "license": "",
+  "scripts": {
+    "contentful:login": "contentful login",
+    "contentful:export": "contentful space export --config export-config.json",
+    "contentful:import": "contentful space import --config import-config.json"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "contentful-cli": "^1.5.8"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  }
+}
