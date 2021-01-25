@@ -1,9 +1,9 @@
 {
   "name": "bathymetric-cam-contentful",
   "version": "0.0.0",
-  "description": "description",
+  "description": "bathymetric-cam-contentful is a tool importing the Content Model of bathymetric-cam to Contentful.",
   "author": "kenzan8000",
-  "license": "",
+  "license": "MIT",
   "scripts": {
     "contentful:login": "contentful login",
     "contentful:export": "contentful space export --config export-config.json",
