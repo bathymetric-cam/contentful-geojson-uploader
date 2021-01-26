@@ -7,11 +7,15 @@
   "scripts": {
     "contentful:login": "contentful login",
     "contentful:export": "contentful space export --config export-config.json",
-    "contentful:import": "contentful space import --config import-config.json"
+    "contentful:import": "ts-node import.ts"
   },
-  "dependencies": {},
+  "dependencies": {
+    "contentful-management": "^7.5.2"
+  },
   "devDependencies": {
-    "contentful-cli": "^1.5.8"
+    "contentful-cli": "^1.5.8",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.3"
   },
   "jest": {
     "moduleFileExtensions": [
