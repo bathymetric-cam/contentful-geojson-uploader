@@ -45,7 +45,7 @@ y: Integer
 geoJSON: JSON Object
 ```
 
-3. **Import Contentful Content**
+4. **Import Contentful Content**
 
 Create content.json on the top-level directory.
 `entries` key's value is the array of bathymetry contents you upload.
