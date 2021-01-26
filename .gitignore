@@ -387,5 +387,5 @@ Temporary Items
 
 node_modules
 content.json
-import-config.json
+.env
 export-config.json

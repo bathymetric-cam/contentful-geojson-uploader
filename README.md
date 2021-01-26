@@ -16,12 +16,9 @@ Create your account and a Space on Contentful.
 Then make the following json files on the top-level directory.
 
 import-config.json
-```json
-{
-  "spaceId": "YOUR_SPACE_ID",
-  "managementToken": "YOUR_MANAGEMENT_TOKEN",
-  "contentFile": "content.json"
-}
+```env
+CONTENTFUL_SPACE_ID="YOUR_SPACE_ID"
+CONTENTFUL_MANAGEMENT_TOKEN="YOUR_MANAGEMENT_TOKEN"
 ```
 
 export-config.json
