@@ -386,6 +386,6 @@ Temporary Items
 .apdisk
 
 node_modules
-content.json
 .env
 export-config.json
+content.json
