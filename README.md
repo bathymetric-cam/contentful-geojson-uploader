@@ -119,3 +119,11 @@ Then run the command.
 ```shell
 yarn contentful:import
 ```
+
+5. **Export imported contents**
+
+To see the imported contents, run the command below.
+
+```shell
+yarn contentful:export
+```

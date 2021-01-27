@@ -9,9 +9,13 @@ const main = async () => {
   const space = await client.getSpace(process.env.CONTENTFUL_SPACE_ID)
   const environment = await space.getEnvironment(process.env.CONTENTFUL_ENVIRONMENT)
   return await Promise.all(
-    content["entries"].map(async entryJSON => {
-      return (await environment.createEntry('bathymetry', entryJSON)).publish()
-    })
+    content["entries"]
+      .map(async entryJSON => {
+        return await environment.createEntry('bathymetry', entryJSON)
+      })
+      .map(async entry => {
+        return (await entry).publish()
+      })
   )
 }
 main()
