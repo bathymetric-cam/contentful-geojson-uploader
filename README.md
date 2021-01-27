@@ -52,7 +52,7 @@ Create content.json on the top-level directory.
 
 An example of content.json.
 ```content.json
-declare module "*.json" {
+{
   "entries": [
     {
       "fields": {
